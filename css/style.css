@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+}
+
+*{
+    font-family: HelveticaNeue,'Noto Naskh Arabic UI',Arial,sans-serif;
+}
+
+
+nav ul{
+    padding-left: 30px;
+    height: 30px;
+    list-style-type: none;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 30px;
+    font-size: 14px;
+    
+
+}
+nav{
+    margin-top: 20px;
+}
+
+
+.r_nav{
+    float: right;
+}
+
+#logo{
+    height: 30px;
+    width: 92px;
+    float: left;
+    margin-right: 50px;
+    margin-top: 10px;
+    
+    
+}
+.input-search{
+    float: left;
+    padding-left: 20px;
+    margin-left: 100px;
+    
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    height: 39px;
+    width: 690px;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+}
+
+.input_nav{
+    
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    
+    height: 34px;
+    font-size: 16px;
+    
+
+}
+.cross-icon{
+    height: 50px;
+    width: 24px;
+    flex: 1 0 auto;
+    display: none;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    line-height: 44px;
+}
+.mic-search{
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+    padding-right: 15px;
+    padding-top:10px;
+    padding-left:10px ;
+
+
+}
+.search-icon{
+    background: none;
+    
+    height: 24px;
+    width: 24px;
+    margin: auto;
+    padding-right: 15px;
+    padding-top:4px;
+
+}
+
+.btn-nav{
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    color: #FFF;
+    margin: 0;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 2px;
+    text-decoration:none;
+    float: right;
+}.item-icon{
+    margin-top: 5px;
+}
