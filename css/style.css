@@ -1,47 +1,55 @@
+/******** Start Basic CSS *********/
 body{
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 *{
     font-family: HelveticaNeue,'Noto Naskh Arabic UI',Arial,sans-serif;
 }
+/********End Basic CSS Settings*********/
 
 
+/******** Start basic nav CSS********/
 nav ul{
     padding-left: 30px;
     height: 30px;
     list-style-type: none;
+    display: flex;
+    width: 100%;
 }
 nav ul li{
     list-style: none;
-    display: inline;
+    
     margin-right: 30px;
     font-size: 14px;
     
 
 }
 nav{
-    margin-top: 20px;
+    max-width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+
 }
+/******** Start basic nav CSS********/
 
-
-.r_nav{
-    float: right;
-}
-
+/********* Start left nav css********/
 #logo{
     height: 30px;
     width: 92px;
-    float: left;
-    margin-right: 50px;
+    order: 0;
+    
+    margin-right: 30px;
     margin-top: 10px;
-    
-    
 }
+/********* end left nav css********/   
+/********* Start mid nav css********/
 .input-search{
-    float: left;
+    
     padding-left: 20px;
-    margin-left: 100px;
+    
     
     background: #fff;
     display: flex;
@@ -52,7 +60,9 @@ nav{
     border-radius: 24px;
     z-index: 3;
     height: 44px;
-    margin: 0 auto;
+    
+    
+    
 }
 
 .input_nav{
@@ -73,6 +83,16 @@ nav{
     
 
 }
+.mic-search{
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+    padding-right: 15px;
+    padding-top:10px;
+    padding-left:10px ;
+
+
+}
 .cross-icon{
     height: 50px;
     width: 24px;
@@ -86,16 +106,7 @@ nav{
     padding: 0 8px;
     line-height: 44px;
 }
-.mic-search{
-    height: 24px;
-    width: 24px;
-    vertical-align: middle;
-    padding-right: 15px;
-    padding-top:10px;
-    padding-left:10px ;
 
-
-}
 .search-icon{
     background: none;
     
@@ -106,19 +117,30 @@ nav{
     padding-top:4px;
 
 }
+/********* Start mid nav css********/
+/*******Srart right Nav***********/
+.r-nav{
+    display: flex; 
+    justify-content: space-between;
+    order: 3;
+    margin-left: 300px;
+}
 
 .btn-nav{
     background-color: #4285f4;
     border: 1px solid #4285f4;
     color: #FFF;
-    margin: 0;
     width: 100px;
     height: 30px;
     font-size: 15px;
     font-weight: bold;
     border-radius: 2px;
     text-decoration:none;
-    float: right;
-}.item-icon{
-    margin-top: 5px;
+    
 }
+.item-icon{
+    margin-top: 5px;
+    
+}
+
+/*******end right Nav***********/
