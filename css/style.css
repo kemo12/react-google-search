@@ -139,8 +139,65 @@ nav{
     
 }
 .item-icon{
-    margin-top: 5px;
+    margin-top: 8px;
     
 }
 
 /*******end right Nav***********/
+/******** Start Search Modes css **********/
+
+.search-modes-conteainer{
+    margin-top: 6px;
+    border-bottom: 1px solid #ebebeb;
+}
+.search-modes{
+    margin-left: 160px;
+    display: flex;
+    
+}
+.search-mode-icon{
+    display: block;
+    height: 16px;
+    width: 16;
+}
+.search-modes ul{
+display: flex;
+list-style-type: none;
+}
+.search-modes ul li{
+    text-decoration: none;
+}
+.search-modes ul li a{
+    text-decoration: none;
+    color: #5f6368;
+}
+.left-search-modes{
+display: flex;
+}
+.left-search-modes li {
+    display: flex;
+    padding-right: 12px;
+}
+
+.search-mode-icon{
+    display: block;
+    height: 16px;
+    width: 16;
+    padding-right: 4px;
+}
+.right-search-modes{
+    display: flex;
+    margin-left: 130px;
+}
+.right-search-modes li{
+    padding-right: 12px;
+    
+    
+}
+.all{
+    height: 160%;
+    border-bottom: 3px solid #1a73e8;
+
+}
+
+/******** End Search Modes css **********/
