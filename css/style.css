@@ -27,6 +27,7 @@ nav ul li{
 
 }
 nav{
+    
     max-width: 100%;
     margin-top: 10px;
     display: flex;
@@ -153,6 +154,7 @@ nav{
 .search-modes{
     margin-left: 160px;
     display: flex;
+    font-size: 14px;
     
 }
 .search-mode-icon{
@@ -201,3 +203,161 @@ display: flex;
 }
 
 /******** End Search Modes css **********/
+/********Start  basic main css**************/
+main{
+    margin-left:205px ;
+}
+/********End basic main css**************/
+
+/********Start results CSS***************/
+
+.results{
+    display: flex;
+    font-size: 14px;
+    color: #70757a;
+}
+.result_nobr{
+white-space: nowrap;  
+line-height: 43px; 
+}
+/********end results CSS***************/
+/********Start left main CSS***************/
+.left-main{
+    width: 55%;
+}
+cite{
+    
+    font-style: normal;
+    font-size:14px;
+}
+.down-arrow{
+padding-left: 8px;
+
+}
+h3{
+    color: #1a0dab;
+    font-size: 20px;
+    line-height: 1;
+    margin-bottom:8px ;
+    
+}
+.a-left-main { 
+        text-decoration: none; 
+    } 
+.a-left-main:hover { 
+        text-decoration: underline; 
+    } 
+
+.st{
+    line-height: 1.3;
+    word-wrap: break-word;
+    font-size: 14px;
+}
+.first-items{
+    display:flex;
+    
+    
+    
+    
+}
+.first-items p {
+    font-size: 14px;
+    
+
+}
+.more_results{
+    font-size: 14px;
+    
+}
+.speace_result{
+    margin-top: 30px;
+    padding-top: 5px;
+}
+.span_cite{
+    color: #70757a;
+    font-size: 14px;
+}
+.seocnd-items{
+display: flex;
+}
+.left-second-result{
+    width: 50%;
+}
+.left-second-result p{
+    font-size: 14px;
+}
+.right-second-result p{
+    font-size: 14px;
+}
+
+.forth_result{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dfe1e5;
+    border-radius: 10px;
+    
+}
+.forth_result h2{
+    color: #222;
+    font-size: 20px;
+    padding: 9px 16px;
+    line-height: 1.3;
+    font-weight: normal;
+    margin: 0;
+    
+}
+.forth-item{
+    border-bottom: 1px solid #dfe1e5;
+    width: 100%;
+    display: flex;
+    
+}
+.fa-angle-down{
+    
+    position: absolute !important;
+    left: 58%;
+    color: #70757a;
+    
+}
+.a-forth-div{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.a-forth{
+    font-size:12px;
+    padding-right: 35px;
+    text-decoration: none;
+    color: #70757a;
+    font-style: italic;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    tap-highlight-color: rgba(0,0,0,0);
+}
+.black-h3{
+    color: #000000;
+}
+.seventh-item{
+    display: flex;
+   
+}
+.left-seventh-item{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.right-seventh-item{
+    display: flex;
+    flex-direction: column;
+}
+.google-page{
+    display: flex;
+    justify-content: center;
+}
+.image-page{
+
+    margin-left: 200px;
+}
+/********End left main CSS***************/
+
+
